@@ -93,7 +93,7 @@ Each camera is carefully designed to give you a thrilling and immersive driving 
 
 ## 📧 Support
 
-For support or questions, feel free to contact me at [your.email@example.com](mailto:your.email@example.com) or visit our community forums.
+For support or questions, feel free to contact me at [flinn6171 - Discord] or visit our community forums.
 
 ---
 
