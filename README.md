@@ -36,12 +36,12 @@ This file is where the magic happens. Each camera angle is fully customizable wi
 
 ```lua
 Config.CameraSettings = {
-    [1] = {coords = {x = -3.0, y = -5.0, z = 1.0}, rotation = {pitch = -10.0, yaw = 0.0}, fov = 45.0},
-    [2] = {coords = {x = 3.0, y = -5.0, z = 1.0}, rotation = {pitch = -10.0, yaw = 0.0}, fov = 45.0},
-    [3] = {coords = {x = 0.0, y = -8.0, z = 2.0}, rotation = {pitch = -10.0, yaw = 0.0}, fov = 45.0},
-    [4] = {coords = {x = -5.0, y = -7.0, z = 1.5}, rotation = {pitch = -10.0, yaw = 0.0}, fov = 45.0},
-    [5] = {coords = {x = 5.0, y = -7.0, z = 1.5}, rotation = {pitch = -10.0, yaw = 0.0}, fov = 45.0},
-    [6] = {coords = {x = 0.0, y = -10.0, z = 3.0}, rotation = {pitch = -15.0, yaw = 0.0}, fov = 50.0}
+    [1] = {coords = {x = 0.0, y = 0.0, z = 1.0}, rotation = {pitch = -10.0, yaw = 0.0}, fov = 45.0},
+    [2] = {coords = {x = 0.0, y = -0.5, z = 1.0}, rotation = {pitch = -10.0, yaw = 0.0}, fov = 45.0},
+    [3] = {coords = {x = 0.0, y = -1.0, z = 1.0}, rotation = {pitch = -10.0, yaw = 0.0}, fov = 45.0},
+    [4] = {coords = {x = 0.0, y = -3.5, z = 1.0}, rotation = {pitch = -10.0, yaw = 0.0}, fov = 45.0},
+    [5] = {coords = {x = 0.0, y = -4.5, z = 1.0}, rotation = {pitch = -10.0, yaw = 0.0}, fov = 45.0},
+    [6] = {coords = {x = 0.0, y = -7.0, z = 1.5}, rotation = {pitch = -15.0, yaw = 0.0}, fov = 45.0}
 }
 
 Config.CommandName = "racecam"
