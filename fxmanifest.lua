@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'Save5Bucks'
 description 'Custom Camera Angles for Race Driving'
-version '1.0.3'
+version '1.0.4'
 
 client_scripts {
     'config.lua',

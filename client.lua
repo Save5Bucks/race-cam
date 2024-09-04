@@ -27,6 +27,10 @@ local function createCamera(vehicle, index)
     SetCamFov(cam, settings.fov)
     SetCamActive(cam, true)
     RenderScriptCams(true, false, 0, true, true)
+
+    -- Ensure the vehicle sounds continue playing by setting gameplay camera relative to the vehicle
+    SetGameplayCamRelativeHeading(0)
+    SetGameplayCamRelativePitch(0, 1.0)
 end
 
 local function updateCamera(vehicle, index)
