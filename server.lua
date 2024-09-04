@@ -6,6 +6,7 @@ local localVersion = GetResourceMetadata(resourceName, "version", 0) -- Read the
 local function version_check()
     -- Perform HTTP request to get the fxmanifest.lua from the remote GitHub repo
     PerformHttpRequest(url, function(err, text, headers)
+        print("\n")
         print("[INFO] Performing Update Check for: " .. resourceName)
 
         if text ~= nil and err == 200 then
@@ -38,5 +39,3 @@ AddEventHandler('onResourceStart', function(resourceName)
         version_check()
     end
 end)
-
-print("ran", resourceName)
