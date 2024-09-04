@@ -36,6 +36,16 @@ local function updateCamera(vehicle, index)
     -- Get vehicle rotation in degrees
     local pitch, roll, yaw = table.unpack(GetEntityRotation(vehicle, 2))
 
+    -- Invert the roll to correct the camera orientation
+    local roll_ivt = -roll
+
+    -- If vehicle flips over (roll > 90 degrees or roll < -90 degrees), delete camera
+    if math.abs(roll_ivt) > 90.0 then
+        deleteCamera()
+        return
+    end
+
+
     -- Update the camera position relative to the vehicle
     SetCamCoord(cam, coords.x + offset.x, coords.y + offset.y, coords.z + offset.z)
 
